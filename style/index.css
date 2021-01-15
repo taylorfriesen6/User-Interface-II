@@ -115,3 +115,18 @@ a {
     justify-content: flex-end;
     margin: 0 10vh;
 }
+
+#projects {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#projects a {
+    border: none;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#projects a:hover {
+   background-color: #4CAF50;
+}
