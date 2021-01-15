@@ -56,6 +56,10 @@ h1 {
     font-size: 3rem;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
 header {
    display: flex;
    flex-direction: column;
@@ -71,18 +75,43 @@ header>* {
 nav {
     height: 3em;
 }
-nav a {
+a {
     padding: 1em 2em;
     margin: 0 0.5em;
-    /* border: 1px solid black; */
+    border: 2px solid #4CAF50;
     text-decoration: none;
     color: black;
     background-color: white;
     transition: 0.3s;
 }
 
-.current-location, nav a:hover {
+.current-location, a:hover {
     background-color: black;
     color: white;
+    border-color: black;
 }
 
+#intro-section {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#intro-section div {
+    width: 40vw;
+}
+
+#pfp {
+    max-width: 100%;
+}
+
+#intro-right {
+    
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin: 0 10vh;
+}
