@@ -48,9 +48,9 @@ table {
 
 /* end css reset */
 
-*{
+/* *{
     border: 1px solid black;
-}
+} */
 
 html {
     font-family: 'Lato', sans-serif;
@@ -180,5 +180,19 @@ footer {
 
     #projects a img {
         width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    header {
+        align-items: center;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    h1 {
+        margin: 0;
+        text-align: center;
     }
 }
