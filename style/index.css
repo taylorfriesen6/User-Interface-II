@@ -149,3 +149,36 @@ footer {
     background-color: #4CAF50;
     margin: 1rem 0 0 0;
 }
+
+
+@media (max-width: 800px) {
+    
+    #intro-section {
+        flex-direction: column;
+    }
+
+    #intro-section div {
+        width: 100%;
+        margin-left: 0;
+        margin: right: 0;
+    }
+
+    #intro-right {
+        align-items: center;
+    }
+
+    #projects {
+        width: 100%;
+    }
+
+    #projects a {
+        margin: 0;
+        padding: 5vw;
+        width: 35%;
+        justify-content: space-between;
+    }
+
+    #projects a img {
+        width: 100%;
+    }
+}
